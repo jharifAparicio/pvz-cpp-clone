@@ -1,0 +1,15 @@
+// launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run PVZ",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/pvz",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build"
+    }
+  ]
+}
